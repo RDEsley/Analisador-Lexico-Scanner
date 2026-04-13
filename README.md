@@ -24,6 +24,10 @@ Se só existir **JRE**, o script `scripts/build.ps1` usa o **ECJ** (Eclipse Comp
 ├── scanner/
 │   ├── Scanner.flex          # Especificação léxica (fonte principal)
 │   └── Scanner.java          # Gerado pelo JFlex (também exigido na entrega)
+├── jflap/                    # Autômatos .jff para testes no JFLAP (ver jflap/README.md)
+│   ├── README.md
+│   ├── identificador_java--.jff
+│   └── numero_inteiro_positivo.jff
 ├── exemplos/                 # Entradas de teste (ver exemplos/README.md)
 │   ├── programa_inicial/
 │   │   └── entrada.txt
@@ -58,6 +62,7 @@ Convenções:
 - **`exemplos/<caso>/entrada.txt`** — um programa de teste por pasta (`caso` = nome do cenário).
 - **`output/<caso>/saida.txt`** — lista de tokens gerada para aquele `entrada.txt` (mesmo nome de pasta que em `exemplos/`). Ver **`output/README.md`** para explicar os exemplos e o formato da saída.
 - **`tools/`** — JARs do JFlex, CUP e ECJ (opcionais no Git; baixados pelo build se faltarem).
+- **`jflap/`** — diagramas em **JFLAP** (`.jff`) para testar autômatos de apoio ao léxico; ver `jflap/README.md`.
 
 ## Build e execução rápida
 
@@ -122,6 +127,7 @@ Exemplo: `[1,1] palavra reservada: program`
 | Comentários `/*` … `*/` estilo Java | Padrão JFlex `"/*"~"*/"` |
 | Saída: tipo, valor, linha, coluna | Método `token()` com `yyline + 1`, `yycolumn + 1` |
 | Seção 5.4 — testes variados | Vários cenários em `exemplos/*/` (programa com classe; **if/else/while** e `read`/`print`; literais e `intx`; **operadores** `==`/`!=`/`>=`/`<=`/`%` e **arrays** `[` `]`) com saídas em `output/*/` |
+| JFLAP (modelagem / testes com autômato) | Pasta `jflap/` com `.jff` + instruções em `jflap/README.md` |
 
 **Nota (seção 3.3.2 do PDF):** texto ambíguo sobre comentários; o comportamento é o de **Java** (o bloco fecha no primeiro `*/`, sem aninhamento de blocos).
 
@@ -134,6 +140,7 @@ java -cp "tools\jflex-1.9.1.jar;tools\java-cup-runtime-11b-20160615.jar" jflex.M
 ## Referências
 
 - [JFlex](https://jflex.de/)
+- [JFLAP](https://www.jflap.org/) — autômatos de apoio em `jflap/` (ver `jflap/README.md`)
 - Enunciado: *Trabalho Prático — Analisador Léxico (Scanner)*, disciplina Compiladores.
 
 ## Entrega na disciplina
