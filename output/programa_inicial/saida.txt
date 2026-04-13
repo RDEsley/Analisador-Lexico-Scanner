@@ -1,0 +1,56 @@
+[1,1] palavra reservada: program
+[1,9] identificador: P
+[3,1] palavra reservada: class
+[3,7] identificador: Teste
+[3,13] símbolo: {
+[4,3] palavra reservada: int
+[4,7] identificador: v1
+[4,9] símbolo: ;
+[5,3] palavra reservada: float
+[5,9] identificador: v2
+[5,11] símbolo: ;
+[6,1] símbolo: }
+[11,1] símbolo: {
+[12,3] palavra reservada: void
+[12,8] identificador: main
+[12,12] símbolo: (
+[12,13] símbolo: )
+[13,3] símbolo: {
+[14,5] identificador: Teste
+[14,11] identificador: t
+[14,13] símbolo: =
+[14,15] palavra reservada: new
+[14,19] identificador: Teste
+[14,24] símbolo: ;
+[15,5] identificador: t
+[15,6] símbolo: .
+[15,7] identificador: v1
+[15,10] símbolo: =
+[15,12] número inteiro: 123
+[15,15] símbolo: ;
+[16,5] identificador: t
+[16,6] símbolo: .
+[16,7] identificador: v2
+[16,10] símbolo: =
+[16,12] número real: 4.56
+[16,16] símbolo: ;
+[17,5] palavra reservada: print
+[17,10] símbolo: (
+[17,11] identificador: t
+[17,12] símbolo: .
+[17,13] identificador: v1
+[17,15] símbolo: ,
+[17,17] número inteiro: 5
+[17,18] símbolo: )
+[17,19] símbolo: ;
+[18,5] palavra reservada: print
+[18,10] símbolo: (
+[18,11] identificador: t
+[18,12] símbolo: .
+[18,13] identificador: v2
+[18,15] símbolo: ,
+[18,17] número hexadecimal: 0x10
+[18,21] símbolo: )
+[18,22] símbolo: ;
+[19,3] símbolo: }
+[20,1] símbolo: }

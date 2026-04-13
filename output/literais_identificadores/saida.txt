@@ -1,0 +1,53 @@
+[1,1] palavra reservada: program
+[1,9] identificador: P
+[2,1] símbolo: {
+[9,3] palavra reservada: void
+[9,8] identificador: main
+[9,12] símbolo: (
+[9,13] símbolo: )
+[10,3] símbolo: {
+[11,5] palavra reservada: float
+[11,11] identificador: pi
+[11,13] símbolo: ;
+[12,5] palavra reservada: int
+[12,9] identificador: intx
+[12,13] símbolo: ;
+[13,5] palavra reservada: int
+[13,9] identificador: b
+[13,10] símbolo: ;
+[14,5] identificador: pi
+[14,8] símbolo: =
+[14,10] número real: 3.14
+[14,14] símbolo: ;
+[15,5] identificador: pi
+[15,8] símbolo: =
+[15,10] número real: 0.0
+[15,13] símbolo: ;
+[16,5] identificador: b
+[16,7] símbolo: =
+[16,9] número hexadecimal: 0x1a3f
+[16,15] símbolo: ;
+[17,5] identificador: b
+[17,7] símbolo: =
+[17,9] número hexadecimal: 0x0A
+[17,13] símbolo: ;
+[18,5] identificador: intx
+[18,10] símbolo: =
+[18,12] número inteiro: 42
+[18,14] símbolo: ;
+[19,5] palavra reservada: print
+[19,10] símbolo: (
+[19,11] identificador: intx
+[19,15] símbolo: ,
+[19,17] número inteiro: 100
+[19,20] símbolo: )
+[19,21] símbolo: ;
+[20,5] palavra reservada: char
+[20,10] identificador: c
+[20,11] símbolo: ;
+[21,5] identificador: c
+[21,7] símbolo: =
+[21,9] caractere: 'z'
+[21,12] símbolo: ;
+[22,3] símbolo: }
+[23,1] símbolo: }

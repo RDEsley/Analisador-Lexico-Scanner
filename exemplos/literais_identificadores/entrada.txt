@@ -1,0 +1,23 @@
+program P
+{
+
+/*
+  Comentario de varias linhas (volume para teste lexico).
+  Texto com 0xDEAD e .99 nao deve gerar tokens aqui dentro.
+*/
+
+  void main()
+  {
+    float pi;
+    int intx;
+    int b;
+    pi = 3.14;
+    pi = 0.0;
+    b = 0x1a3f;
+    b = 0x0A;
+    intx = 42;
+    print(intx, 100);
+    char c;
+    c = 'z';
+  }
+}

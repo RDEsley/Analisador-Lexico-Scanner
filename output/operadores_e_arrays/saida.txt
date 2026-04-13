@@ -1,0 +1,93 @@
+[1,1] palavra reservada: program
+[1,9] identificador: P
+[2,1] símbolo: {
+[3,3] palavra reservada: int
+[3,7] identificador: buf
+[3,10] símbolo: [
+[3,11] número inteiro: 8
+[3,12] símbolo: ]
+[3,13] símbolo: ;
+[4,3] palavra reservada: void
+[4,8] identificador: main
+[4,12] símbolo: (
+[4,13] símbolo: )
+[5,3] símbolo: {
+[6,5] palavra reservada: int
+[6,9] identificador: x
+[6,10] símbolo: ;
+[7,5] palavra reservada: int
+[7,9] identificador: y
+[7,10] símbolo: ;
+[8,5] identificador: x
+[8,7] símbolo: =
+[8,9] número inteiro: 15
+[8,11] símbolo: ;
+[9,5] identificador: y
+[9,7] símbolo: =
+[9,9] número inteiro: 3
+[9,10] símbolo: ;
+[10,5] palavra reservada: if
+[10,8] símbolo: (
+[10,9] identificador: x
+[10,11] símbolo: >=
+[10,14] identificador: y
+[10,15] símbolo: )
+[11,7] identificador: x
+[11,9] símbolo: =
+[11,11] identificador: x
+[11,13] símbolo: %
+[11,15] identificador: y
+[11,16] símbolo: ;
+[12,5] palavra reservada: if
+[12,8] símbolo: (
+[12,9] identificador: x
+[12,11] símbolo: ==
+[12,14] número inteiro: 0
+[12,15] símbolo: )
+[13,7] identificador: y
+[13,9] símbolo: =
+[13,11] número inteiro: 1
+[13,12] símbolo: ;
+[14,5] palavra reservada: else
+[15,7] identificador: y
+[15,9] símbolo: =
+[15,11] número inteiro: 2
+[15,12] símbolo: ;
+[16,5] palavra reservada: while
+[16,11] símbolo: (
+[16,12] identificador: x
+[16,14] símbolo: <=
+[16,17] número inteiro: 20
+[16,19] símbolo: )
+[17,5] símbolo: {
+[18,7] identificador: x
+[18,9] símbolo: =
+[18,11] identificador: x
+[18,13] símbolo: +
+[18,15] número inteiro: 1
+[18,16] símbolo: ;
+[19,5] símbolo: }
+[20,5] palavra reservada: if
+[20,8] símbolo: (
+[20,9] identificador: x
+[20,11] símbolo: !=
+[20,14] identificador: y
+[20,15] símbolo: )
+[21,7] palavra reservada: print
+[21,12] símbolo: (
+[21,13] identificador: x
+[21,14] símbolo: ,
+[21,16] identificador: y
+[21,17] símbolo: )
+[21,18] símbolo: ;
+[22,5] identificador: buf
+[22,8] símbolo: [
+[22,9] número inteiro: 0
+[22,10] símbolo: ]
+[22,12] símbolo: =
+[22,14] número hexadecimal: 0xFF
+[22,18] símbolo: ;
+[23,5] palavra reservada: return
+[23,11] símbolo: ;
+[24,3] símbolo: }
+[25,1] símbolo: }

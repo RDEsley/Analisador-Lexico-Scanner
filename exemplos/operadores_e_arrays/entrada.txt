@@ -1,0 +1,25 @@
+program P
+{
+  int buf[8];
+  void main()
+  {
+    int x;
+    int y;
+    x = 15;
+    y = 3;
+    if (x >= y)
+      x = x % y;
+    if (x == 0)
+      y = 1;
+    else
+      y = 2;
+    while (x <= 20)
+    {
+      x = x + 1;
+    }
+    if (x != y)
+      print(x, y);
+    buf[0] = 0xFF;
+    return;
+  }
+}

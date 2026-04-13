@@ -1,0 +1,65 @@
+[1,1] palavra reservada: program
+[1,9] identificador: P
+[2,1] símbolo: {
+[3,3] palavra reservada: void
+[3,8] identificador: main
+[3,12] símbolo: (
+[3,13] símbolo: )
+[4,3] símbolo: {
+[5,5] palavra reservada: int
+[5,9] identificador: x
+[5,10] símbolo: ;
+[6,5] palavra reservada: int
+[6,9] identificador: y
+[6,10] símbolo: ;
+[7,5] identificador: x
+[7,7] símbolo: =
+[7,9] número inteiro: 1
+[7,10] símbolo: ;
+[8,5] identificador: y
+[8,7] símbolo: =
+[8,9] número inteiro: 2
+[8,10] símbolo: ;
+[9,5] palavra reservada: if
+[9,8] símbolo: (
+[9,9] identificador: x
+[9,11] símbolo: <
+[9,13] identificador: y
+[9,14] símbolo: )
+[10,7] identificador: x
+[10,9] símbolo: =
+[10,11] número inteiro: 3
+[10,12] símbolo: ;
+[11,5] palavra reservada: else
+[12,7] identificador: y
+[12,9] símbolo: =
+[12,11] número inteiro: 4
+[12,12] símbolo: ;
+[13,5] palavra reservada: while
+[13,11] símbolo: (
+[13,12] identificador: x
+[13,14] símbolo: <
+[13,16] número inteiro: 10
+[13,18] símbolo: )
+[14,5] símbolo: {
+[15,7] identificador: x
+[15,9] símbolo: =
+[15,11] identificador: x
+[15,13] símbolo: +
+[15,15] número inteiro: 1
+[15,16] símbolo: ;
+[16,5] símbolo: }
+[17,5] palavra reservada: read
+[17,9] símbolo: (
+[17,10] identificador: x
+[17,11] símbolo: )
+[17,12] símbolo: ;
+[18,5] palavra reservada: print
+[18,10] símbolo: (
+[18,11] identificador: y
+[18,12] símbolo: ,
+[18,14] número hexadecimal: 0x01
+[18,18] símbolo: )
+[18,19] símbolo: ;
+[19,3] símbolo: }
+[20,1] símbolo: }

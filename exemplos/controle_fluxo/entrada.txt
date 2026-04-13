@@ -1,0 +1,20 @@
+program P
+{
+  void main()
+  {
+    int x;
+    int y;
+    x = 1;
+    y = 2;
+    if (x < y)
+      x = 3;
+    else
+      y = 4;
+    while (x < 10)
+    {
+      x = x + 1;
+    }
+    read(x);
+    print(y, 0x01);
+  }
+}
