@@ -4,6 +4,3 @@ scanner/*.java~
 
 # ferramentas baixadas pelo script de build (ver README)
 tools/*.jar
-
-# saída regenerada (opcional: comente a linha se quiser versionar sempre)
-# output/saida.txt

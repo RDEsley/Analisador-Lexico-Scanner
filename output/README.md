@@ -51,4 +51,4 @@ Comentários `/* … */` **não** aparecem na saída (são ignorados pelo scanne
 | `literais_identificadores/` | `exemplos/literais_identificadores/entrada.txt` |
 | `operadores_e_arrays/` | `exemplos/operadores_e_arrays/entrada.txt` |
 
-Para gerar de novo todas as saídas: na raiz do projeto, execute `build.bat` ou `scripts\build.bat`.
+Atualização das saídas: `build.bat` na raiz ou `scripts\build.bat`.

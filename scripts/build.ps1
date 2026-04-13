@@ -78,7 +78,6 @@ foreach ($case in $cases) {
     New-Item -ItemType Directory -Force -Path $outDir | Out-Null
     $saida = Join-Path $outDir "saida.txt"
     Write-Host "Executando caso [$($case.Name)] -> output\$($case.Name)\saida.txt"
-    # cmd.exe: usar & em vez de && (compativel com todas as versoes do PowerShell)
     $cmd = "chcp 65001>nul & set JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8 & java -cp `"$ScannerDir`" Scanner `"$entrada`" > `"$saida`""
     cmd /c $cmd
 }

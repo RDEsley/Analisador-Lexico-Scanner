@@ -61,15 +61,13 @@ Convenções:
 
 ## Build e execução rápida
 
-### Recomendado no Windows (evita erro de *Execution Policy*)
-
-Na raiz do projeto, use o **Prompt de Comando** ou o PowerShell chamando o `.bat` (ele já usa `-ExecutionPolicy Bypass`):
+No Windows, na raiz do projeto:
 
 ```bat
 build.bat
 ```
 
-Ou, a partir da pasta `scripts`:
+Ou a partir da pasta `scripts`:
 
 ```bat
 scripts\build.bat
@@ -81,18 +79,14 @@ Só reexecutar os testes (sem JFlex nem `javac`), com `scanner/Scanner.class` j�
 run-tests.bat
 ```
 
-### Se quiser usar PowerShell com arquivos `.ps1`
-
-Chamar explicitamente com *Bypass* (não altera a política do sistema de forma permanente):
+Os arquivos `.bat` acima chamam o PowerShell com `-ExecutionPolicy Bypass` apenas naquele processo. Alternativa equivalente:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\build.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\run-tests.ps1
 ```
 
-Se você rodar `.\scripts\build.ps1` direto e aparecer *"a execução de scripts foi desabilitada"*, é a política normal do Windows: use um dos métodos acima em vez de mudar a política global só por causa deste projeto.
-
-O script:
+O script de build:
 
 1. Garante os JARs em `tools/` (baixa se faltarem).
 2. Executa o **JFlex** e grava `scanner/Scanner.java`.
@@ -150,15 +144,11 @@ O PDF pede `Scanner.flex`, `Scanner.java`, um `entrada.txt` de teste e um arquiv
 |---------------------|----------------------------|
 | `Scanner.flex` | `scanner/Scanner.flex` |
 | `Scanner.java` | `scanner/Scanner.java` |
-| `entrada.txt` | Copiar `exemplos/programa_inicial/entrada.txt` (pode renomear para `entrada.txt` na pasta de entrega) |
-| Arquivo de saída | Copiar `output/programa_inicial/saida.txt` (após rodar o build) |
+| `entrada.txt` | `exemplos/programa_inicial/entrada.txt` |
+| Arquivo de saída | `output/programa_inicial/saida.txt` |
 
 Os outros casos (`controle_fluxo`, `literais_identificadores`, `operadores_e_arrays`) servem para **documentação / secção de resultados** (lista de testes), conforme o PDF.
 
 ## Licença / uso
 
 Projeto acadêmico.
-
-## Integrantes do Projeto: 
-
-Richard Esley, Fernanda Mey, Matheus Brandão, Vitor de Assis, Ryan Ribeiro, Rafael Furtado.
